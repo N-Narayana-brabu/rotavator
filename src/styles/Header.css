@@ -1,0 +1,47 @@
+/* src/components/Header.css */
+.header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center items vertically */
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.header-logo {
+    font-size: 2em;
+    margin: 0; /* Remove margin to align properly */
+}
+
+.header-nav {
+    display: flex; /* Use flexbox for nav items */
+}
+
+.header-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove margin to align properly */
+}
+
+.header-nav li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.error {
+    text-align: center;
+    font-size: 1.5em;
+}
